@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10002</projectId>
+    <projectKey>SWAG</projectKey>
+    <exportDate>2022-11-27 04:55:37 UTC</exportDate>
+    <folders>
+        <folder fullPath="Organização em lista" index="1"/>
+        <folder fullPath="Pesquisa por nome" index="0"/>
+        <folder fullPath="Pesquisa por preço" index="2"/>
+    </folders>
+    <testCases>
+        <testCase id="73388788" key="SWAG-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Myrela Caroline</createdBy>
+            <createdOn>2022-11-26 04:59:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Pesquisa por nome]]></folder>
+            <issues>
+                <issue>
+                    <key>SWAG-9</key>
+                    <summary><![CDATA[Como usuário desejo pesquisar produto por nome a fim de encontrar produtos que tenham uma determinada palavra em seu nome]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente deseja pesquisar produto por nome]]></name>
+            <objective><![CDATA[Verificar funcionalidade de pesquisa por nome]]></objective>
+            <owner>632bfe80b2e3c5ad0fa25f4c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de produtos
+
+And queira pesquisar produto por nome
+
+When inserir a palavra desejada na barra de pesquisa e apertar a tecla 'Enter'
+
+Then aparecerão todos os produtos que tem a palavra específica em seu nome]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="76122468" key="SWAG-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Myrela Caroline</createdBy>
+            <createdOn>2022-11-27 00:15:45 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Pesquisa por nome]]></folder>
+            <issues>
+                <issue>
+                    <key>SWAG-9</key>
+                    <summary><![CDATA[Como usuário desejo pesquisar produto por nome a fim de encontrar produtos que tenham uma determinada palavra em seu nome]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente deseja barra de pesquisa na tela de produtos]]></name>
+            <owner>632bfe80b2e3c5ad0fa25f4c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL https://www.saucedemo.com]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita username no campo 'username']]></description>
+                        <testData><![CDATA[standard_user]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita senha no campo 'password']]></description>
+                        <testData><![CDATA[standard_user]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar a tela de produtos e nela a barra de pesquisa]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="76122608" key="SWAG-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Myrela Caroline</createdBy>
+            <createdOn>2022-11-27 03:28:18 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Organização em lista]]></folder>
+            <issues>
+                <issue>
+                    <key>SWAG-16</key>
+                    <summary><![CDATA[Como usuário desejo que haja opção de organizar os produtos em lista]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente deseja organizar produtos em lista]]></name>
+            <owner>632bfe80b2e3c5ad0fa25f4c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL https://www.saucedemo.com]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita username no campo 'username']]></description>
+                        <testData><![CDATA[standard_user]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita senha no campo 'password']]></description>
+                        <testData><![CDATA[standard_user]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar a tela de produtos e nela um bot&atilde;o para organizar os produtos em lista]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o para organizar em lista]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar os produtos que est&atilde;o em tela em lista]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="73388789" key="SWAG-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Myrela Caroline</createdBy>
+            <createdOn>2022-11-26 05:00:29 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Pesquisa por preço]]></folder>
+            <issues>
+                <issue>
+                    <key>SWAG-10</key>
+                    <summary><![CDATA[Como usuário desejo pesquisar produto por intervalos de preços afim de encontrar produtos rapidamente com uma determinada faixa de preço]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente deseja pesquisar produto por meio de opções de intervalo de preço]]></name>
+            <owner>632bfe80b2e3c5ad0fa25f4c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de produtos
+
+And queira pesquisar produto por preço rapidamente clicando em opções de intervalo de preços
+
+When no filtro escolher alguma das duas opções 'price'
+
+Then uma barra do lado esquerdo surgirá com 10 opções de intervalo de preços]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
