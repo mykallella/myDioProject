@@ -4,7 +4,7 @@
  
  > Criando fluxos de trabalho, user history, casos de testes e mind map.
 
- Desafio realizado durante o Bootcamp **GFT Quality Assurance Para Mulheres** da **DIO**.
+ Desafio realizado para o Bootcamp **GFT Quality Assurance Para Mulheres** da **DIO**.
 
 ## 🔧 Ferramentas e Tecnologias
 
