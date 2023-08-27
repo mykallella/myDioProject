@@ -2,7 +2,7 @@
 
 ![preview](./preview.png)
  
- > Criando fluxos de trabalho, user history, casos de testes e mind map.
+ > Criando fluxos de trabalho, user history, cenários de testes, casos de testes e mind map.
 
  Desafio realizado para o Bootcamp **GFT Quality Assurance** da **DIO**.
 
